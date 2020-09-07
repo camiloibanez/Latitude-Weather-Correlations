@@ -29,20 +29,22 @@ body {
 /* Position the image container (needed to position the left and right arrows) */
 .container1 {
 position: relative;
-margin-left: 100px;
+margin-left: 60px;
 margin-top: 90px;
-width: 700px;
+width: 650px;
 height: 650px;
+display: inline-block;
 }
 
 .container2 {
 position: relative;
 margin-left: 50px;
 margin-top: 90px;
-width: 700px;
+width: 650px;
 height: 650px;
-
+display: inline-block;
 }
+
 /* Hide the images by default */
 .mySlides,
 .mySlides2 {
