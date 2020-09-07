@@ -27,12 +27,22 @@ body {
   }
   
   /* Position the image container (needed to position the left and right arrows) */
-  .container {
+  .container1 {
     position: relative;
-    /* width: 1000px;
-    height: 500px; */
+    margin-left: 100px;
+    margin-top: 90px;
+    width: 700px;
+    height: 650px;
   }
   
+  .container2 {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 90px;
+    width: 700px;
+    height: 650px;
+  
+  }
   /* Hide the images by default */
   .mySlides {
     display: none;
@@ -100,4 +110,8 @@ body {
   .active,
   .demo:hover {
     opacity: 1;
+  }
+
+  .image {
+      height: 460px;
   }
